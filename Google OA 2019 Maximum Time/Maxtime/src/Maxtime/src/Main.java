@@ -1,8 +1,6 @@
 package Maxtime.src;
 public class Main {
 public static void main(String[] args) {
-System.out.println(maxTime("??:?4"));
-    
 }
 public static String maxTime(String time) {
 	String max1 = maxHour(time);
