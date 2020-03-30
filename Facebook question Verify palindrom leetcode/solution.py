@@ -16,16 +16,3 @@ def isPalindrome(s):
         i +=1
         j -=1
     return True
-
-t = "..........b''ii887#%&Z8bba"
-k =0 
-l = list(t)
-while k < len(l):
-    if not l[k].isalnum():
-        l.remove(l[k])
-        if k >0:
-            k-=1
-        continue
-
-    k+=1
-print(l)
